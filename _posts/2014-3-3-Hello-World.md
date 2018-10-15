@@ -3,7 +3,9 @@ layout: post
 title: Autonomous Landing of Drone on a moving platform using DDPG
 ---
 
-Markup :  # Introduction #
+Markup :  # Heading 1 #
+Introduction
+Markup :  Common text
 A novel method of Reinforcement Learning, Deep Deterministic Policy Gradient(DDPG) is used to tackle the problem of landing an autonomous drone on a moving platform with the use just simple data i.e, GPS coordinates and imu data of drone and the base.  
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
