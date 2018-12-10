@@ -6,8 +6,6 @@ title: Autonomous Landing of Drone on a moving platform using DDPG
 # Introduction #
 A novel method of Reinforcement Learning, Deep Deterministic Policy Gradient(DDPG) is used to tackle the problem of landing an autonomous drone on a moving platform with the use just simple data i.e, GPS coordinates and imu data of drone and the base. Many methods have been emloyed before to tackle these kind of problems making use of raw pixels which need a lot of computation power to train and also less accurate. In our work we have just used low level control variables which made the training both less computative and more accurate.    
 
-<![_config.yml]({{ site.baseurl }}/images/gazebo_ss.jpg)>
-
 # Methodology #
 A gazebo simulation (nearly equivalent to real world) is made to simulate UAV and moving platform where the training is performed. The communication between Gazebo and RL algorithm is established using ROS. Both the UAV and the platform are mounted with GPS and odometry sensors whose data is given as input to train the RL model. A QR code is pasted on the top of platform surface which is used to tackle the errors in the GPS data and the gimbal angle of UAV camera is controlled to get the QR code into centre of frame irrespective of position of drone.
 # Environment #
@@ -16,6 +14,7 @@ A gazebo environment is simulated for the sake of training.
 
 # Gimbal #
 This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV. 
+
 [![Gimbal Working](https://img.youtube.com/vi/a9tQO1UDpxY/default.jpg)](https://www.youtube.com/watch?v=a9tQO1UDpxY)
 
 # Reinforcement Learning #
@@ -27,4 +26,5 @@ The six states are:
 The two actions are velocity inputs given to UAV in x, y directions. We consider the velocity of UAV in z direction to be a constant negative value to maintain stability and also reduce computation.
 
 # Final Results #
+
 [![UAV tracking a Moving Platform](https://img.youtube.com/vi/-eJLhzJz_qk/default.jpg)](https://youtu.be/-eJLhzJz_qk)
