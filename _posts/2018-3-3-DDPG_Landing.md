@@ -10,6 +10,7 @@ A novel method of Reinforcement Learning, Deep Deterministic Policy Gradient(DDP
 A gazebo simulation (nearly equivalent to real world) is made to simulate UAV and moving platform where the training is performed. The communication between Gazebo and RL algorithm is established using ROS. Both the UAV and the platform are mounted with GPS and odometry sensors whose data is given as input to train the RL model. A QR code is pasted on the top of platform surface which is used to tackle the errors in the GPS data and the gimbal angle of UAV camera is controlled to get the QR code into centre of frame irrespective of position of drone.
 # Environment #
 A gazebo environment is simulated for the sake of training.
+
 ![_config.yml]({{ site.baseurl }}/images/Picture1.jpg)
 
 # Gimbal #
