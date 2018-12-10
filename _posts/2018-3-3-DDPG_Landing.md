@@ -15,7 +15,7 @@ A gazebo environment is simulated for the sake of training.
 # Gimbal #
 This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV. 
 
-[![Gimbal Working](https://img.youtube.com/vi/a9tQO1UDpxY/default.jpg)](https://www.youtube.com/watch?v=a9tQO1UDpxY)
+[![Gimbal Working](https://img.youtube.com/vi/a9tQO1UDpxY/default.jpg = =250x250)](https://www.youtube.com/watch?v=a9tQO1UDpxY)
 
 # Reinforcement Learning #
 In recent years many RL algorithms like DQN, DDPG, A3C, NAF,TRPO, PPO have been developed. In our case Deep Deterministic policy Gradient(DDGP) is chosen since the UAV works on continuous action spaces. DDPG works on a actor-critic principle where actor generates the desired actions from state inputs and critic generates an error signal called Temporal Difference. Both actor and critic can be represented by using Deep Neural Networks. We considered a state space of dimension six and an action space of dimension two.
