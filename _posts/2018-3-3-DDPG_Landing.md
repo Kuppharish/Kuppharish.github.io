@@ -13,7 +13,8 @@ A gazebo environment is simulated for the sake of training.
 ![_config.yml]({{ site.baseurl }}/images/gazebo_ss.jpg)
 
 # Gimbal #
-This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV.\ 
+This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV.
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a9tQO1UDpxY" target="_blank">
  <img src="http://img.youtube.com/vi/a9tQO1UDpxY/0.jpg" alt="Gimbal Working" width="600" height="350" border="10" />
 </a>
