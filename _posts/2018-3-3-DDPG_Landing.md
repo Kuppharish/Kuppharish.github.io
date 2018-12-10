@@ -13,7 +13,7 @@ A gazebo environment is simulated for the sake of training.
 ![_config.yml]({{ site.baseurl }}/images/gazebo_ss.jpg)
 
 # Gimbal #
-This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV.
+This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV. Click the below image to see the working of gimbal.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a9tQO1UDpxY" target="_blank">
  <img src="http://img.youtube.com/vi/a9tQO1UDpxY/0.jpg" alt="Gimbal Working" width="600" height="350" border="10" />
@@ -30,4 +30,8 @@ The two actions are velocity inputs given to UAV in x, y directions. We consider
 
 # Final Results #
 
-[![UAV tracking a Moving Platform](https://img.youtube.com/vi/-eJLhzJz_qk/default.jpg)](https://youtu.be/-eJLhzJz_qk)
+Click below to watch the UAV tracking drone
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=eJLhzJz_qk" target="_blank">
+ <img src="http://img.youtube.com/vi/eJLhzJz_qk/0.jpg" alt="UAV tracking a Moving Platform" width="600" height="350" border="10" />
+</a>
