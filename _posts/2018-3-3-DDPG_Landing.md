@@ -15,7 +15,7 @@ A gazebo environment is simulated for the sake of training.
 # Gimbal #
 This is the view of UAV camera and we can see that the MP is always in the frame disregard to position of UAV. 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a9tQO1UDpxY" target="_blank">
- <img src="http://img.youtube.com/vi/a9tQO1UDpxY/0.jpg" alt="Gimbal Working" width="240" height="180" border="10" />
+ <img src="http://img.youtube.com/vi/a9tQO1UDpxY/0.jpg" alt="Gimbal Working" width="600" height="350" border="10" />
 </a>
 
 
