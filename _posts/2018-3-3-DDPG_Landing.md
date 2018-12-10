@@ -36,3 +36,8 @@ Click below to watch the UAV tracking drone
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-eJLhzJz_qk" target="_blank">
  <img src="http://img.youtube.com/vi/-eJLhzJz_qk/0.jpg" alt="UAV tracking a Moving Platform" width="600" height="350" border="10" />
 </a>
+
+The plot of relative positions UAV with resepect to Moving Platform over time
+
+![_config.yml]({{ site.baseurl }}/images/Poation_1.png)
+
