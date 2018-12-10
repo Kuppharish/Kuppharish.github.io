@@ -39,5 +39,5 @@ Click below to watch the UAV tracking drone
 
 The plot of relative positions UAV with resepect to Moving Platform over time
 
-![_config.yml]({{ site.baseurl }}/images/poation_1.png)
+![_config.yml]({{ site.baseurl }}/images/poaition_1.png)
 
