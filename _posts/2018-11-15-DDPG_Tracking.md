@@ -18,7 +18,7 @@ This is the view of UAV camera and we can see that the MP is always in the frame
 Click the below image to see the working of gimbal:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a9tQO1UDpxY" target="_blank">
- <img src="http://img.youtube.com/vi/a9tQO1UDpxY/0.jpg" alt="Gimbal Working" width="600" height="350" border="10" />
+ <img src="https://github.com/Kuppharish/Kuppharish.github.io/blob/master/images/gimbal_tn.jpg?raw=true" alt="Gimbal Working" width="600" height="350" border="10" />
 </a>
 
 
