@@ -15,7 +15,7 @@ A new indegenous algorithm is developed to count the number of cows from a conti
 Final output video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=M2gHWYT-obE" target="_blank">
- <img src="http://img.youtube.com/vi/M2gHWYT-obE/0.jpg" alt="Livestock Monitoring" width="600" height="350" border="10" />
+ <img src="https://github.com/Kuppharish/Kuppharish.github.io/blob/master/images/count_tn.jpg?raw=true" alt="Livestock Monitoring" width="600" height="350" border="10" />
 </a>
 
 #### Disclaimer : Due to confidentiality issues much information couldn't be presented. ####
