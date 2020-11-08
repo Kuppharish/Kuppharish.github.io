@@ -12,15 +12,8 @@ A robot was built for testing iRobot Create2 as the base mobile robot and an Ous
 
 
 # Methodology: #
-First a huge number of images of cows and other Livestock were obtained by the drone.  
-Using these images training waas done using the state-of-the-are Faster RCNN technique.    
-A new indegenous algorithm is developed to count the number of cows from a continious video.
+LegoLoam performs point cloud clutering and removes clusters with very small number of points deeming them not significant. While this is true for outdoor environments, in the indoor environments small objects should also be taken into consideration. For this purpose this thershold has been significantly reduced.
+Since we are fixed on using the SLAM on AGVs, we can divide the registration into two parts where we match plane features and edge features seperately. This in itself reduces the complexity of the algorithm by about 30%. In this project, we used the multi cores of Jetson and made the above two regiatrations parallel with the help of concurrency in C++.  
 
 # Result: #
-Final output video:
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=M2gHWYT-obE" target="_blank">
- <img src="https://github.com/Kuppharish/Kuppharish.github.io/blob/master/images/count_tn.jpg?raw=true" alt="Livestock Monitoring" width="600" height="350" border="10" />
-</a>
-
-#### Disclaimer : Due to confidentiality issues much information couldn't be presented. ####
+The computation time of the LOAM algorithm has been reduced by 10% while keeping the accuracy same.
