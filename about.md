@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# An aspiring roboticist with passion for autonomus mobilty and manipulators
+# An aspiring roboticist with passion for Computer Vision and Autonomus Mobilty 
 
 ### More Information
 
