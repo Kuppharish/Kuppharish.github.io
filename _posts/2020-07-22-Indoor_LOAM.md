@@ -9,10 +9,7 @@ LOAM is a state of the art algorithm developed for Lidar SLAM. Many major develo
 # Hardware: #
 A robot was built for testing iRobot Create2 as the base mobile robot and an Ouster OS1-64 was mounted on it. Nvidia Jetson TX2 was used for the onborad computing and lidar data was received over the WiFi.
 
-![alt text][logo]
-
-[logo]: https://github.com/Kuppharish/Kuppharish.github.io/blob/master/images/image.jpg
-
+![Robot](/images/image.jpg)
 
 # Methodology: #
 LegoLoam performs point cloud clutering and removes clusters with very small number of points deeming them not significant. While this is true for outdoor environments, in the indoor environments small objects should also be taken into consideration. For this purpose this thershold has been significantly reduced.
