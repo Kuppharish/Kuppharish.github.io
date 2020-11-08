@@ -8,6 +8,7 @@ LOAM is a state of the art algorithm developed for Lidar SLAM. Many major develo
 
 # Hardware: #
 A robot was built for testing iRobot Create2 as the base mobile robot and an Ouster OS1-64 was mounted on it. Nvidia Jetson TX2 was used for the onborad computing and lidar data was received over the WiFi.
+
 ![alt text][logo]
 
 [logo]: https://github.com/Kuppharish/Kuppharish.github.io/blob/master/images/image.jpg
