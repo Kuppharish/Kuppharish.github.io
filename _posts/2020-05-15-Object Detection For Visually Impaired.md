@@ -4,7 +4,7 @@ title: Object Detection For Visually Impaired
 ---
 
 # Introduction: #
-In this project I have developed an approach that detects and counts Livestock from footage of a drone. Latest CNN techiniques and image processing techniques have been used to accomplish the task.
+The goal of this project to build a system where object detection can be performed from the smartphone camera and the person can hear the details of the object pointed by the finger i.e, its name and distance from themself.
 
 # Methodology: #
 First a huge number of images of cows and other Livestock were obtained by the drone.  
