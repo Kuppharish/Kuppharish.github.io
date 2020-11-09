@@ -7,9 +7,13 @@ title: Object Detection For Visually Impaired
 The goal of this project to build a system where object detection can be performed from the smartphone camera and the person can hear the details of the object pointed by the finger i.e, its name and distance from themself.
 
 # Methodology: #
-First a huge number of images of cows and other Livestock were obtained by the drone.  
-Using these images training waas done using the state-of-the-are Faster RCNN technique.    
-A new indegenous algorithm is developed to count the number of cows from a continious video.
+The whole project is divided into three major parts:
+Transfering the image feed from phone camera to RasPi through WiFi which has been done with the help of an app called IP Web Cam.
+Wrist Detection in order to detect the finger pointer from the image.
+Object Detection of the surrounding objects to recognize the objects.
+
+## Wrist and Object Detection ##
+This is the key 
 
 # Result: #
 Final output video:
