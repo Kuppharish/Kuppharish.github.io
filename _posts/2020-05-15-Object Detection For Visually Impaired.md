@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Object Detection For Visually Impaired
+driveId: 1NKET_mgxJQzQl-uxJY3vNuYe5fQo_wvx
 ---
 
 # Introduction: #
@@ -13,7 +14,10 @@ Wrist Detection in order to detect the finger pointer from the image.
 Object Detection of the surrounding objects to recognize the objects.
 
 ## Wrist and Object Detection ##
-This is the key 
+This is the key aspect of the whole project. Since RasPi has a very low computation capability, I chose YoloV3-tiny for object detection. 
+Instead of using two different models for both the tasks I trained a modified Yolo model by changing the output layer to accomodate one additional class to dectect the wrist as an object.
+Once the wrist is detected the finger tip is detected with the use of contour detection.
 
 # Result: #
 Final output video:
+{% include googleDrivePlayer.html id=page.driveId %}
