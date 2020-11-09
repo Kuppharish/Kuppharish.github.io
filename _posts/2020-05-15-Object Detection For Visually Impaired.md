@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Object Detection For Visually Impaired
-driveId: 1NKET_mgxJQzQl-uxJY3vNuYe5fQo_wvx
+driveId: 1NKET_mgxJQzQl-uxJY3vNuYe5fQo_wvx/preview
 ---
 
 # Introduction: #
