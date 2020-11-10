@@ -18,7 +18,7 @@ This is the key aspect of the whole project. Since RasPi has a very low computat
 Instead of using two different models for both the tasks I trained a modified Yolo model by changing the output layer to accomodate one additional class to dectect the wrist as an object.
 Once the wrist is detected the finger tip is detected with the use of contour detection.
 
-![Robot](/images/The-network-structure-of-Tiny-YOLO-V3.png.jpg)
+![YoloV3](/images/The-network-structure-of-Tiny-YOLO-V3.png)
 
 # Result: #
 Final output video:
