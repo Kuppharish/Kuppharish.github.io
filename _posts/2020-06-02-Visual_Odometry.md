@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Object Detection For Visually Impaired
+title: State Esitmation using VIO
 ---
 
 # Introduction: #
