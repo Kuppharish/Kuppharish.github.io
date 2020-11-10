@@ -8,6 +8,6 @@ Here we are working on a Micro Air Vechicle, which has a camera and an IMU senso
 
 The state and its differential considered for EKF are,
 
-![EKF-1](/images/EKF-1.png)
-![EKF-2](/images/EKF-2.png)
+![EKF-1](/images/EKF-1.PNG)
+![EKF-2](/images/EKF-2.PNG)
 
