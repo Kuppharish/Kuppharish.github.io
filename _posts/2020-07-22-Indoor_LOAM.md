@@ -18,3 +18,5 @@ Since we are fixed on using the SLAM on AGVs, we can divide the registration int
 
 # Result: #
 The computation time of the LOAM algorithm has been reduced by 10% while keeping the accuracy same.
+
+![Map](/images/Map_LOAM.png)
